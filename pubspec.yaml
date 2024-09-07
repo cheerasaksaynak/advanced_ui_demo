@@ -1,0 +1,22 @@
+name: advanced_ui_demo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter  
+  circular_bottom_navigation: ^2.4.0
+  blurrycontainer: 2.1.0
+  circular_seek_bar: 1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
